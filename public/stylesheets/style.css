@@ -42,4 +42,20 @@ header {
       align-items: flex-start;
       margin: 1%; }
 
+.sectionHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.headerIcon {
+  height: 40px;
+  width: 40px; }
+
+.skills li {
+  display: flex;
+  align-items: center; }
+  .skills li .icon {
+    height: 20px;
+    width: 20px; }
+
 /*# sourceMappingURL=style.css.map */
