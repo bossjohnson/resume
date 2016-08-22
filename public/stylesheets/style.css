@@ -19,7 +19,8 @@ a {
 
 html {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: white; }
 
 body {
   width: 8.5in;
@@ -32,7 +33,9 @@ header {
   text-align: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: beige; }
+  background-color: whitesmoke;
+  border-bottom: 2px solid black;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
   header h1 {
     font-family: 'Josefin Slab';
     padding-top: 1%; }
@@ -46,24 +49,43 @@ header {
       flex-wrap: wrap;
       align-items: flex-start;
       margin: 1%; }
-  header .fa {
-    font-size: 12pt; }
 
 section {
   display: flex;
   flex-direction: column; }
   section .row {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around; }
+    section .row.centerVertical {
+      align-items: center; }
+    section .row.flex-start {
+      justify-content: flex-start; }
+  section .col {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 1%; }
+    section .col.fiftyPercentW {
+      width: 50%; }
+    section .col.centerHorizontal {
+      justify-content: center; }
 
 .sectionHeading {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1%;
-  background-color: beige;
+  background-color: whitesmoke;
   border-radius: 20px;
-  padding: 1%; }
+  padding: 1%;
+  border: 2px solid black;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5); }
+
+.skillsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
 
 .headerIcon {
   height: 40px;
@@ -77,6 +99,15 @@ section {
   .skills h3 {
     text-align: center; }
 
+.education ul {
+  width: 100%; }
+  .education ul li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5%;
+    list-style-type: none; }
+
 .icon {
   height: 20px;
   width: 20px; }
@@ -84,5 +115,19 @@ section {
 .tinyIcon {
   height: 15px;
   width: 15px; }
+
+.largeIcon {
+  height: 40px;
+  width: 40px; }
+
+.libertyIcon {
+  height: 40px;
+  align-self: flex-start; }
+
+hr {
+  height: 3px;
+  border: 1px outset lightgray;
+  background-color: gray;
+  margin: 1%; }
 
 /*# sourceMappingURL=style.css.map */
