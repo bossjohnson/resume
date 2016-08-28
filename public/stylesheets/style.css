@@ -56,7 +56,8 @@ section {
   section .row {
     display: flex;
     align-items: flex-start;
-    justify-content: space-around; }
+    justify-content: space-around;
+    padding: 0 5%; }
     section .row.centerVertical {
       align-items: center; }
     section .row.flex-start {
@@ -131,10 +132,7 @@ section {
   align-self: flex-start; }
 
 hr {
-  height: 3px;
-  border: 1px outset lightgray;
-  background-color: gray;
-  margin: 1%; }
+  margin: 0 1%; }
 
 ul {
   list-style-type: none; }
