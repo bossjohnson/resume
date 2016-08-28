@@ -99,6 +99,12 @@ section {
   .skills h3 {
     text-align: center; }
 
+.experience ul {
+  width: 100%; }
+  .experience ul li {
+    position: relative;
+    left: 5%; }
+
 .education ul {
   width: 100%; }
   .education ul li {
@@ -129,5 +135,8 @@ hr {
   border: 1px outset lightgray;
   background-color: gray;
   margin: 1%; }
+
+ul {
+  list-style-type: none; }
 
 /*# sourceMappingURL=style.css.map */
