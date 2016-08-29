@@ -123,7 +123,8 @@ section {
   height: 40px; }
 
 hr {
-  margin: 0 1%; }
+  margin: 0 1%;
+  width: 98%; }
 
 ul {
   list-style-type: none; }
@@ -136,8 +137,8 @@ ul {
   width: 100%; }
   .row.centerVertical {
     align-items: center; }
-  .row.flex-start {
-    justify-content: flex-start; }
+  .row.centerH {
+    justify-content: center; }
 
 .col {
   display: flex;
