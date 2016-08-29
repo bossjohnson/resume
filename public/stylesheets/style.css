@@ -61,7 +61,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 5%; }
+    padding: 0 5%;
+    width: 100%; }
     section .row.centerVertical {
       align-items: center; }
     section .row.flex-start {
@@ -90,33 +91,32 @@ section {
   opacity: 0.8;
   font-size: 1.5em; }
 
-.skillsColumn {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; }
-  .skillsColumn.backEnd {
-    align-self: flex-start; }
-
 .headerIcon {
   height: 40px;
   width: 40px; }
 
-.skills {
-  display: flex; }
-  .skills li {
-    display: flex;
-    align-items: center; }
-  .skills h3 {
-    text-align: center; }
+.skills li {
+  display: flex;
+  align-items: center; }
+.skills h3 {
+  text-align: center; }
+.skills .skillsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start; }
+.skills .backEnd {
+  align-self: flex-start; }
 
+.experience .jobTitle {
+  position: relative;
+  left: 5%; }
 .experience ul {
   width: 100%; }
   .experience ul li {
     position: relative;
-    left: 5%; }
+    left: 10%; }
 
-.education .row .col .row {
-  align-self: flex-start; }
 .education ul {
   width: 100%; }
   .education ul li {
@@ -146,8 +146,7 @@ section {
   width: 40px; }
 
 .libertyIcon {
-  height: 40px;
-  align-self: flex-start; }
+  height: 40px; }
 
 hr {
   margin: 0 1%; }
