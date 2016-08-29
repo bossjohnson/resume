@@ -80,23 +80,27 @@ section {
 .skills .backEnd {
   align-self: flex-start; }
 
-.experience .jobTitle {
-  position: relative;
-  left: 5%; }
-.experience ul {
-  width: 100%; }
-  .experience ul li {
-    position: relative;
-    left: 10%; }
-
-.education ul {
-  width: 100%; }
-  .education ul li {
+.experience {
+  padding: 2%; }
+  .experience .jobTitle {
     display: flex;
-    align-items: center;
-    position: relative;
-    left: 10%;
-    list-style-type: none; }
+    justify-content: center;
+    margin-bottom: 1%; }
+  .experience ul {
+    width: 100%; }
+    .experience ul li {
+      position: relative;
+      left: 5%; }
+
+.education {
+  padding: 2%; }
+  .education ul {
+    width: 100%; }
+    .education ul li {
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 5%; }
 
 .projects .project a {
   position: relative;
@@ -148,5 +152,26 @@ ul {
   flex-direction: column;
   flex-grow: 1;
   padding: 1%; }
+
+.edWorkRow {
+  padding: 0; }
+  .edWorkRow .row {
+    padding: 0 0.1%; }
+  .edWorkRow .col {
+    align-self: flex-start; }
+
+.edCol,
+.workCol {
+  width: 50%;
+  margin: 0;
+  align-self: flex-start; }
+
+.galvanize {
+  margin-top: 5%; }
+
+time {
+  align-self: flex-end;
+  text-align: right;
+  white-space: nowrap; }
 
 /*# sourceMappingURL=style.css.map */
