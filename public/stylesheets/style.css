@@ -98,12 +98,14 @@ section {
     left: 10%;
     list-style-type: none; }
 
-.projects .col {
-  border: 1px dotted red;
-  position: relative; }
-  .projects .col .projectImg {
-    border-radius: 50%;
-    height: 5%; }
+.projects .project a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+.projects .project img {
+  border-radius: 50%;
+  height: 75pt; }
 
 .icon {
   height: 20px;
