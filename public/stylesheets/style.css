@@ -32,7 +32,7 @@ body {
   background-size: cover; }
 
 header {
-  height: 12%;
+  height: 10%;
   text-align: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -43,40 +43,14 @@ header {
   header h1 {
     font-family: 'Josefin Slab';
     padding-top: 1%; }
-  header .headerRow {
+  header .row {
     display: flex;
-    justify-content: space-around; }
-    header .headerRow .headerCol {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      margin: 1%; }
+    justify-content: space-around;
+    width: 100%; }
 
 section {
   display: flex;
   flex-direction: column; }
-  section .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 5%;
-    width: 100%; }
-    section .row.centerVertical {
-      align-items: center; }
-    section .row.flex-start {
-      justify-content: flex-start; }
-  section .col {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
-    padding: 1%; }
-    section .col.fiftyPercentW {
-      width: 50%; }
-    section .col.centerHorizontal {
-      justify-content: center; }
 
 .sectionHeading {
   display: flex;
@@ -153,5 +127,23 @@ hr {
 
 ul {
   list-style-type: none; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 5%;
+  width: 100%; }
+  .row.centerVertical {
+    align-items: center; }
+  .row.flex-start {
+    justify-content: flex-start; }
+
+.col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1%; }
 
 /*# sourceMappingURL=style.css.map */
