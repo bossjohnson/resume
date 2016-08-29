@@ -51,23 +51,21 @@ header {
 section {
   display: flex;
   flex-direction: column; }
-
-.sectionHeading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1%;
-  background-color: whitesmoke;
-  border-radius: 20px;
-  padding: 1%;
-  border: 2px solid black;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-  opacity: 0.8;
-  font-size: 1.5em; }
-
-.headerIcon {
-  height: 40px;
-  width: 40px; }
+  section .sectionHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid black;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    font-size: 1.2em; }
+  section .headerIcon {
+    height: 30px;
+    width: 30px; }
 
 .skills li {
   display: flex;
